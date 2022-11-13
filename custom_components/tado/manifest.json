@@ -1,6 +1,7 @@
 {
   "domain": "tado",
   "name": "Tado",
+  "version": "1.0.3",
   "documentation": "https://www.home-assistant.io/integrations/tado",
   "requirements": ["python-tado==0.12.0"],
   "codeowners": ["@michaelarnauts", "@north3221"],
@@ -14,6 +15,5 @@
     }
   ],
   "iot_class": "cloud_polling",
-  "loggers": ["PyTado"],
-  "version": "2022.11.2"
+  "loggers": ["PyTado"]
 }
