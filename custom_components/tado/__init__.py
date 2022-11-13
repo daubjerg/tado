@@ -42,7 +42,7 @@ PLATFORMS = [
 ]
 
 MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=4)
-SCAN_INTERVAL = timedelta(minutes=5)
+SCAN_INTERVAL = timedelta(seconds=30)
 
 CONFIG_SCHEMA = cv.removed(DOMAIN, raise_if_present=False)
 
