@@ -1,7 +1,7 @@
 {
   "domain": "tado",
   "name": "Tado",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "documentation": "https://www.home-assistant.io/integrations/tado",
   "requirements": ["python-tado==0.12.0"],
   "codeowners": ["@michaelarnauts", "@north3221"],
