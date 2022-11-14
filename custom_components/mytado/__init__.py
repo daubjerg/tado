@@ -41,8 +41,8 @@ PLATFORMS = [
     Platform.WATER_HEATER,
 ]
 
-MIN_TIME_BETWEEN_UPDATES = timedelta(minutes=4)
-SCAN_INTERVAL = timedelta(seconds=30)
+MIN_TIME_BETWEEN_UPDATES = timedelta(seconds=10)
+SCAN_INTERVAL = timedelta(seconds=20)
 
 CONFIG_SCHEMA = cv.removed(DOMAIN, raise_if_present=False)
 
